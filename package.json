@@ -1,8 +1,28 @@
 {
+  "scripts": {
+    "start": "node app"
+  },
   "dependencies": {
     "dotenv": "^6.0.0",
     "koa": "^2.5.3",
+    "koa-orm": "^2.3.0",
+    "koa-router": "^7.4.0",
     "mysql2": "^1.6.1",
     "sequelize-cli": "^4.1.1"
-  }
+  },
+  "name": "demo-for-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mifengxiaochang/demo-for-node.git"
+  },
+  "author": "zhixiliu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mifengxiaochang/demo-for-node/issues"
+  },
+  "homepage": "https://github.com/mifengxiaochang/demo-for-node#readme",
+  "description": ""
 }
